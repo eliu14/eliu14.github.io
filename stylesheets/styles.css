@@ -64,7 +64,7 @@ a:hover small {
   height: 0;
   padding-bottom: 56.25%;
 }
-.video {
+.container iframe{
   position: absolute;
   top: 0;
   left: 0;
@@ -117,9 +117,12 @@ img {
 }
 
 header {
+  background: #f0f0f0;
   width:270px;
   float:left;
   position:fixed;
+  padding: 10px;
+  padding-top: 50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
